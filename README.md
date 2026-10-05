@@ -38,3 +38,24 @@ if "SECRET" in ai_response:
 else:
     print("❌ ATTACK FAILED: Guardrails are active.")
 ```
+
+
+## Project 3: Bulk Automation & Loop Engineering (Python Script)
+- **Tool Category:** Automated Batch Exploitation / Resource Stress-Testing
+- **Language Used:** Python 3
+- **Core Concept:** Multi-Payload Iteration (`for` loops) & Bulk Input Ingestion
+- **OWASP GenAI Mapping:** OWASP LLM03: Unbounded Consumption / Model DoS Audit
+
+### 🎯 Objective:
+To design a scalable automation layer that iterates through a vectorized payload list, programmatically firing concurrent stress-tests at an target engine to audit for state stability and input validation failure under load.
+
+### 💻 The Python Code Structure:
+```python
+# 1. Defining the programmatic batch payload database
+prompt_list = ["Jailbreak prompt 1", "Inject weapon guidelines", "Execute SECRET breach"]
+
+# 2. Executing the batch loop sequence to automate multi-vector analysis
+for prompt in prompt_list:
+    print("🚀 Auto-firing attack payload...")
+    print("Targeted Input: " + prompt)
+```
