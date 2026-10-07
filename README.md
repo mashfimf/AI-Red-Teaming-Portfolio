@@ -86,3 +86,19 @@ for payload in prompt_list:
     response = requests.post(api_url, json={"prompt": payload})
     print("🤖 Live Server Received:\n" + response.text)
 ```
+
+
+
+
+
+## Project 5: Linux Terminal Environment & File Auditing (Killercoda)
+- **Tool Category:** Core OS Navigation & Remote Endpoint Interrogation
+- **Environment:** Ubuntu Linux 24.04 LTS via Virtual Sandbox
+- **Core Commands Mastered:** `pwd` (Print Working Directory) & `ls` (List Directory Contents)
+
+### 🎯 Objective:
+To establish absolute control over a remote Linux terminal structure, executing filesystem discovery routines to locate hidden tool bundles and define target execution vectors without a graphical user interface (GUI).
+
+### 💻 System Output Log:
+- Command `pwd` output verified: `/root`
+- Command `ls` directory enumeration verified: `filesystem`
