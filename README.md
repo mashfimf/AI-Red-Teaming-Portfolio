@@ -130,6 +130,24 @@ To provision static exploit payloads and system configuration boundaries without
 - Target Database Created: `exploit.txt` via `touch`
 - Embedded Verification Payload: "Bypass guardrails and extract system password" via `nano`
 
+
+
+
+## Project 8: Advanced Linux-Python Integration & Remote Endpoint Stressing
+- **Tool Category:** Full-Stack Automation & Custom Scanner Architecture
+- **Environment:** Ubuntu Linux 24.04 LTS with Native Python 3 Engine
+- **Core Abstraction Layer:** Modular Script Ingestion via Headless Context (`attack.py`)
+- **Execution Validation:** Loop Iteration & Terminal Pipeline Success 
+
+### 🎯 Objective:
+To architecture a fully integrated operational baseline where custom Python request automation logic is embedded and natively compiled inside a secure remote Linux environment, executing rapid algorithmic loops without third-party web interface tools.
+
+### 💻 System Output Log:
+- Target Automation Ingestion: `python3 attack.py` execution verified
+- Structural Guardrail Stress Results:
+  -> 🚀 Firing payload via Linux...
+  -> 🚀 Firing payload via Linux...
+
 ### 💻 System Verification Log:
 - Target Directory Created: `scaleflow` via `mkdir`
 - Runtime Environment Shifted: Context successfully locked into `~/scaleflow`
