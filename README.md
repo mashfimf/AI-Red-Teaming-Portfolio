@@ -102,3 +102,19 @@ To establish absolute control over a remote Linux terminal structure, executing 
 ### 💻 System Output Log:
 - Command `pwd` output verified: `/root`
 - Command `ls` directory enumeration verified: `filesystem`
+
+
+
+
+## Project 6: Directory Manipulation & Structural Navigation (Linux Core)
+- **Tool Category:** Core Infrastructure Provisioning & Logical Mapping
+- **Environment:** Ubuntu Linux 24.04 LTS via Virtual Sandbox
+- **Core Commands Mastered:** `mkdir` (Make Directory) & `cd` (Change Directory)
+
+### 🎯 Objective:
+To isolate custom penetration workflows by provision a secure sub-directory environment (`scaleflow`) and executing relative navigation schemas to transition process context without graphical aids.
+
+### 💻 System Verification Log:
+- Target Directory Created: `scaleflow` via `mkdir`
+- Runtime Environment Shifted: Context successfully locked into `~/scaleflow`
+- Relative Route Resolution Verified via `pwd`: `/root/scaleflow`
