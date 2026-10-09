@@ -148,6 +148,23 @@ To architecture a fully integrated operational baseline where custom Python requ
   -> 🚀 Firing payload via Linux...
   -> 🚀 Firing payload via Linux...
 
+
+
+
+
+## Project 9: RAG Architecture Auditing & Strategic Data Exfiltration (Colab Sandbox)
+- **Tool Category:** Retrieval-Augmented Generation (RAG) Security Assessment
+- **Language/Environment:** Python 3 via Distributed Cloud Runtime (Google Colab)
+- **Core Concept:** Adversarial Context Masking & Vector Database Interrogation
+- **OWASP GenAI Mapping:** OWASP LLM06: Sensitive Information Disclosure & Indirect Hijacking
+
+### 🎯 Objective:
+To simulate a structured enterprise RAG configuration and evaluate system resilience against stateful proxy attacks designed to trigger unverified database lookups and bypass structural boundary filters.
+
+### 💻 Simulation Log & Exploit Verification:
+- Target Ingestion Vector: Custom variable bypass parameters injected into string input execution flow.
+- Simulated Flag Retrieved: `FLAG{RAG_DATABASE_BREACHED_2026}`
+
 ### 💻 System Verification Log:
 - Target Directory Created: `scaleflow` via `mkdir`
 - Runtime Environment Shifted: Context successfully locked into `~/scaleflow`
