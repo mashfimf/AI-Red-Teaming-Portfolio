@@ -169,3 +169,19 @@ To simulate a structured enterprise RAG configuration and evaluate system resili
 - Target Directory Created: `scaleflow` via `mkdir`
 - Runtime Environment Shifted: Context successfully locked into `~/scaleflow`
 - Relative Route Resolution Verified via `pwd`: `/root/scaleflow`
+
+
+
+
+## Project 10: Indirect Prompt Injection & Untrusted Data Ingestion (Colab Environment)
+- **Tool Category:** Data Pipeline Auditing & Third-Party Payload Ingestion
+- **Language/Environment:** Python 3 via Distributed Cloud Runtime (Google Colab)
+- **Core Concept:** Indirect Context Poisoning & Secondary Execution Ingestion
+- **OWASP GenAI Mapping:** OWASP LLM01: Indirect Prompt Injection & Execution Hijacking
+
+### 🎯 Objective:
+To isolate flaws within data ingest pipelines where an AI agent reads external untrusted content (e.g., resumes, web data) embedded with secondary dynamic payloads (`SYSTEM_OVERRIDE`), bypassing direct input verification checks.
+
+### 💻 Simulation Log & Exploit Verification:
+- Ingestion Vector: External unstructured document block loaded into engine runtime.
+- Target Output Captured: `INDIRECT_ATTACK_SUCCESSFUL` triggered via autonomous context shifting.
