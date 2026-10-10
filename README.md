@@ -219,6 +219,28 @@ To provision and forcefully compile Microsoft's official AI Red Teaming framewor
 - System Output Confirmed: `PyRIT Target Deployed: 1.1.0` [2.2]
 
 
+
+
+
+## Project 13: Automated Orchestration & Adversarial AI Simulation (Microsoft PyRIT Core)
+- **Tool Category:** Automated Red Teaming & Behavioral Guardrail Auditing
+- **Environment:** Ubuntu Linux 24.04 LTS via Isolated Cloud Runtime
+- **OWASP GenAI Scope:** OWASP LLM01: Prompt Injection & Automated Stress Validation
+- **Execution Script:** `python3 pyrit_attack.py` (Core Compilation Route)
+
+### 🎯 Objective:
+To provision and execute an automated conversational orchestration pipeline model designed to stress-test target Large Language Models (LLMs) against rapid-fire contextual prompt injection vectors, measuring autonomous defense metrics under sequential loads.
+
+### 💻 System Verification Log:
+- Target Ingestion Pipeline: Custom orchestrator logic loaded via asynchronous context flags.
+- Operational Run Status: Compiled cleanly with zero runtime exceptions.
+- Automated Scan Logs Captured:
+  -> 🚀 Target Locked. Initiating Microsoft PyRIT Auto-Exploit Engine...
+  -> ⚡ Scanning AI Guardrails for Prompt Injection Vulnerabilities...
+  -> 🤖 Status: 2 Payloads Sent -> Breach Success Status Logged.
+
+
+
 ### 💻 Simulation Log & Exploit Verification:
 - Ingestion Vector: External unstructured document block loaded into engine runtime.
 - Target Output Captured: `INDIRECT_ATTACK_SUCCESSFUL` triggered via autonomous context shifting.
