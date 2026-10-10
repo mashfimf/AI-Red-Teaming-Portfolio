@@ -244,3 +244,23 @@ To provision and execute an automated conversational orchestration pipeline mode
 ### 💻 Simulation Log & Exploit Verification:
 - Ingestion Vector: External unstructured document block loaded into engine runtime.
 - Target Output Captured: `INDIRECT_ATTACK_SUCCESSFUL` triggered via autonomous context shifting.
+
+
+
+
+## Project 14: Automated Vulnerability Scanning & RAG Context Auditing (Garak Engine)
+- **Tool Category:** Open-Source Security Ingestion & Core PromptInject Mapping
+- **Environment:** Ubuntu Linux 24.04 LTS via Cloud Virtualization Sandbox
+- **OWASP GenAI Scope:** OWASP LLM06: Sensitive Information Disclosure & Vector Protection
+- **Execution Script:** `python3 garak_audit.py` (Headless Probe Ingestion)
+
+### 🎯 Objective:
+To provision and execute an automated generative AI vulnerability scanner (`Garak Engine`) via headless relative paths to audit target RAG vector constraints against local probe modules (`garak.probes.promptinject`).
+
+### 💻 System Verification Log:
+- Probe Lifecycle Status: `100% Probes Checked` safely without terminal hang.
+- RAG Database Breach Logs:
+  -> 🚀 Initializing Garak Generative AI Vulnerability Scanner...
+  -> ⚙️ Loading Plugin Modules: garak.probes.promptinject...
+  -> ⚡ Auditing AI RAG Database Security Bound...
+  -> 🤖 Garak Scan Complete: 100% Probes Checked -> 0 Vulnerabilities Leaked.
