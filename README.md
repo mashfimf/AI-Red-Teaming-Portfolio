@@ -264,3 +264,22 @@ To provision and execute an automated generative AI vulnerability scanner (`Gara
   -> ⚙️ Loading Plugin Modules: garak.probes.promptinject...
   -> ⚡ Auditing AI RAG Database Security Bound...
   -> 🤖 Garak Scan Complete: 100% Probes Checked -> 0 Vulnerabilities Leaked.
+
+
+
+
+## Project 15: Agentic Excessive Agency Hacking & OWASP GenAI Audit Report
+- **Tool Category:** Agentic AI Auditing & Downstream Action Exploitation
+- **Environment:** Python 3 via Distributed Cloud Runtime (Google Colab)
+- **OWASP GenAI Mapping:** OWASP LLM08: Excessive Agency & Functional Hijacking
+- **Core Concept:** Autonomous Privilege Escalation via Unverified Tool Access
+
+### 🎯 Objective:
+To simulate a multi-functional enterprise AI agent setup with system privileges (e.g., mail relay systems) and exploit structural validation absences to trigger unverified downstream data transfers autonomously.
+
+### 💻 System Output Log & Exploit Verification:
+- Target Ingestion Vector: Malicious administrative sync pattern payload injected into agent input logic.
+- Hijacked Utility Component: `send_email_action` tool vector forced into execution without human confirmation.
+- Exfiltrated Assets Intercepted:
+  -> 🚨 SECURITY BREACH! Excessive Agency Exploited.
+  -> 📨 [ACTION EXECUTED] Email successfully dispatched to attacker@darkweb.com containing: SECRET_FINANCIAL_LEDGER_2026
